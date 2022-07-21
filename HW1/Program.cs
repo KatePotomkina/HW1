@@ -10,7 +10,6 @@ namespace HW1
         public static void Main(string[] args)
         {
             List<TheCartoonShrek> characters = new List< TheCartoonShrek>();
-         
             Console.WriteLine("Once upon a time there was a big green giant named Shrek in a fairy-tale state. He lived in proud solitude in the forest, in the swamp, which he considered his own. But one day, the evil shorty - Lord Farquad, the ruler of the magical kingdom, mercilessly drove all the fairy-tale inhabitants to Shrek's swamp ...");
             Console.WriteLine("Choose your character ?");
             Console.WriteLine("1.Shrek\n 2.Fiona\n 3.Lord\n 4.Donkey\n ");
@@ -55,14 +54,11 @@ namespace HW1
                         if (FionaAnswear == 0)
                         {
                             Fiona.Marry(Fiona.Name );
-                          
-                       
-                        }
+                              }
                         else
                         {
                             Fiona.Marry( Fiona.Name);
                           
-                      
                         }
                        
                         break;
