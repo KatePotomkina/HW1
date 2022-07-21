@@ -74,8 +74,7 @@ namespace HW1
                             Lord.AskForHelp(Shrek);
                             Shrek.ToSavePrincess(Fiona);
                             Lord.Marry(Lord.Name);
-                        
-                        }
+                                                }
                         else
                         {
                             throw new IncorrectStoryExeption("You need to marry princess!");

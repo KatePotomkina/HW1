@@ -11,7 +11,6 @@ namespace HW1
               public virtual void SayHi()
         {
             Console.WriteLine($"Hi,I'm{Name}");
-          
         }
         public virtual void Marry(string Name)
         {

@@ -15,7 +15,6 @@ namespace HW1
         {
             Console.WriteLine("You and Shrek are the bestie!");
         }
-
         public static void ToSavePrincess(PrincessFiona princess)
         {
             Console.WriteLine(" Donkey:Dragon is my concern");

@@ -12,8 +12,7 @@ namespace HW1
         {
             Console.WriteLine($"Hehe! I'm {Name}");
         }
-
-        public static void AskForHelp(Shrek shrek)
+                public static void AskForHelp(Shrek shrek)
         {
             Console.WriteLine("Shrek, please  save Fiona! ");
 

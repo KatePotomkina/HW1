@@ -18,8 +18,7 @@ public void OnFoo()
             Volatile.Read(ref Foo).Invoke(this, EventArgs.Empty);
             Console.WriteLine("Wow, what's next?!!");
         }
-
-        public   static string Name => "Shrek";
+                public   static string Name => "Shrek";
        public  void MeetDonkey(Donkey donkey)
         {
             Console.WriteLine("You and Donkey are the best friend!");

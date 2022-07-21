@@ -8,7 +8,6 @@ namespace HW1
     {
         public IncorrectStoryExeption()
         {
-
         }
         public IncorrectStoryExeption( string message):base(message)
         {
