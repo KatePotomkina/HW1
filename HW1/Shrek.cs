@@ -9,7 +9,6 @@ namespace HW1
         public event EventHandler Foo = delegate { };
         public void OnFoo()
         {
-
             Volatile.Read(ref Foo).Invoke(this, EventArgs.Empty);
             Console.WriteLine("Wow, what's next?!!");
         }
